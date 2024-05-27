@@ -1,0 +1,30 @@
+{
+  "name": "@matthewparrott/linesdiff",
+  "version": "1.0.0",
+  "description": "create and apply diff patches by line",
+  "main": "LinesDiff.js",
+  "type": "module",
+  "scripts": {
+    "lint": "npx eslint .",
+    "test": "node ./test/test.js"
+  },
+  "imports": {
+    "#LinesDiff": "./LinesDiff.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wikitopian/linesDiff.git"
+  },
+  "author": "wikitopian",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wikitopian/linesDiff/issues"
+  },
+  "homepage": "https://github.com/wikitopian/linesDiff#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.10.0"
+  }
+}
